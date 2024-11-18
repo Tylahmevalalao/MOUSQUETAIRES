@@ -1,0 +1,46 @@
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: rgb(7, 5, 1);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(247, 116, 207, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('https://source.unsplash.com/1920x1080/?spa,relaxation') center/cover no-repeat;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: rgb(14, 3, 3);
+            text-align: center;
+        }
+
+        .services .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .services .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .testimonials {
+            background: #f0f4f8;
+        }
+
+        .contact-form input, .contact-form textarea {
+            border-radius: 30px;
+        }
+
+        footer {
+            background:brown;
+            color: #fff;
+            padding: 20px 0;
+            cursor: pointer;
+        }
+   .sary {
+width: 25%;
+
+   }
